@@ -1,0 +1,107 @@
+/* header start here */
+.header {
+    background-color: rgb(244,82,27) !important;
+    color: white !important;
+}
+.header .nav .nav-item .nav-link{
+    color: white !important;
+}
+/* header end here */
+/* navbar start */
+.navbar-brand{
+    color: black !important;
+    font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black !important;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgb(244,82,27) !important;
+    text-decoration: underline;
+}
+.navbar-toggler {
+    background-color: black !important;
+}
+/* navbar end */
+/* banner start here */
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+}
+.carousel-caption{
+    bottom: 100px !important;
+    z-index: 10 !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px!important;
+    color: black !important;
+    text-align: left !important;
+}
+.carousel-caption button{
+    background-color: transparent;
+}
+/* banner End here */
+/* offer Section Start */
+.container .card .card-body i{
+    color: rgb(244,82,27);
+    font-size: 25px;
+}
+.container .row .card .card-header i{
+    color: rgb(244,82,27);
+    font-size: 25px;
+    padding: 5px;
+}
+.text-center p::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(230,84,31);
+    margin: 10px auto;
+    border-radius: 2px;
+}
+/* offer section end */
+#accordion .card-header .card-link h4{
+    color: black;
+    text-decoration: none;
+}
+/* application end here */
+/* news section start here */
+#news .news .row .card-body h3{
+    color: rgb(244,82,27);
+}
+#news .news .row .card img{
+    border-radius: 3px;
+}
+/* news section end here */
+/* footer section start */
+footer{
+    background-color: black;
+}
+#foot .contact h5{
+    color: rgb(230,84,31);
+}
+.footer-footer{
+    display: flex;
+    background-color: #141416;
+    align-items: center;
+}
+.footer-footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer-footer ul{
+    list-style-type: none;
+    margin-left: auto;
+    display: flex;
+}
+.footer-footer li{
+    padding: 20px;
+}
+.input-group-text i{
+    color: black;
+}
+.input-group span{
+    background-color: rgb(230,84,31);
+}
+/* footer section end */
